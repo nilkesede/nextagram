@@ -5,14 +5,19 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "2.4.5",
+    "next": "latest",
     "react": "15.6.1",
     "react-dom": "15.6.1"
   },
   "devDependencies": {
+    "babel-eslint": "^7.2.3",
     "eslint": "^4.1.1",
+    "eslint-config-react-app": "^1.0.4",
     "eslint-config-xo-react": "^0.12.0",
     "eslint-config-xo-space": "^0.16.0",
+    "eslint-plugin-flowtype": "^2.34.0",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-jsx-a11y": "5.1.0",
     "eslint-plugin-react": "^7.1.0"
   }
 }
