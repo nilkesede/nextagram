@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Head from '../components/head';
 
 export default class Index extends Component {
-  title = 'Nextagram';
+  title = '▲ Nextagram';
 
   render() {
     return (
