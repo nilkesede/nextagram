@@ -2,13 +2,16 @@ import React, {Component} from 'react';
 import Head from '../components/head';
 
 export default class Index extends Component {
-  title = '▲ Nextagram';
-
   render() {
+    const title = '▲ Nextagram';
+    const description = 'A next app!';
+
     return (
       <div>
-        <Head title={this.title}/>
-        <h1>{this.title}</h1>
+        <Head title={title} description={description}/>
+
+        <h1>{title}</h1>
+        <p>{description}</p>
       </div>
     );
   }
